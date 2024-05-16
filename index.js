@@ -125,7 +125,7 @@ playersPoints.set("Гравець2", 12);
 playersPoints.set("Гравець3", 0);
 playersPoints.set("Гравець4", 12);
 
-console.log("playersPoints BEFORE Methods =", playersPoints, "\n");
+console.log("playersPoints BEFORE Methods =\n\n", playersPoints, "\n");
 
 try {
   increasePoints(playersPoints, "Гравець1", 12);
@@ -140,7 +140,7 @@ try {
   console.error(error);
 }
 
-console.log("playersPoints AFTER Methods =", playersPoints, "\n");
+console.log("playersPoints AFTER Methods =\n\n", playersPoints, "\n");
 
 // 2.) Є об'єкт user:
 
