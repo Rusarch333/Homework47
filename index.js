@@ -2,8 +2,8 @@
 
 console.log("TASK 1 ____________\n");
 
-const MAX_PLAYER_SCORE = 12;
 const MIN_PLAYER_SCORE = 0;
+const MAX_PLAYER_SCORE = 12;
 
 /**
  * Функція, яка повертає помилку, якщо мапа з балами гравців порожня
